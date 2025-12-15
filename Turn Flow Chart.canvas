@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"9b3f05f8bc0417fe","type":"group","x":-180,"y":420,"width":580,"height":500,"color":"1","label":"Combat Phase"},
+		{"id":"1460c3345124a91a","type":"group","x":-180,"y":-180,"width":580,"height":260,"color":"5","label":"Begining Phase"},
+		{"id":"cbb2502643da0483","type":"group","x":-180,"y":140,"width":580,"height":220,"color":"4","label":"Main Phase"},
+		{"id":"ffa2ae6d544f57d9","type":"group","x":-180,"y":980,"width":580,"height":220,"color":"4","label":"Main Phase"},
+		{"id":"0935957b5ba124dc","type":"group","x":-180,"y":1260,"width":580,"height":180,"color":"3","label":"Ending Phase"},
+		{"id":"a4d32d8725db7520","type":"text","text":"Untap","x":-160,"y":-160,"width":120,"height":60,"color":"5"},
+		{"id":"1e96cbce487a202f","type":"text","text":"Upkeep","x":-160,"y":-80,"width":120,"height":60,"color":"5"},
+		{"id":"b34c7adaab078aa3","type":"text","text":"Draw","x":-160,"y":0,"width":120,"height":60,"color":"5"},
+		{"id":"3f1caea3afe7137f","type":"text","text":"draw your card for turn","x":-20,"y":0,"width":400,"height":60,"color":"5"},
+		{"id":"7dea0dea76dc8b5b","type":"text","text":"effects that mention upkeep happen now","x":-20,"y":-80,"width":400,"height":60,"color":"5"},
+		{"id":"9de9ea0f093b3fac","type":"text","text":"untap all permanents","x":-20,"y":-160,"width":400,"height":60,"color":"5"},
+		{"id":"1ad73c14301f7eab","type":"text","text":"Declare Blockers","x":-160,"y":600,"width":160,"height":60,"color":"1"},
+		{"id":"c0f4fef459e8d39b","type":"text","text":"First Damage","x":-160,"y":680,"width":160,"height":60,"color":"1"},
+		{"id":"c983e9dadcd80fbd","type":"text","text":"Damage","x":-160,"y":760,"width":160,"height":60,"color":"1"},
+		{"id":"9e843bf55b097493","type":"text","text":"End Combat","x":-160,"y":840,"width":160,"height":60,"color":"1"},
+		{"id":"46b4d671e704a806","type":"text","text":"Combat Begin","x":-160,"y":440,"width":160,"height":60,"color":"1"},
+		{"id":"57dbdbefaf8a96fd","type":"text","text":"Declare Attackers","x":-160,"y":520,"width":160,"height":60,"color":"1"},
+		{"id":"479850873f61617c","type":"text","text":"End Turn","x":-160,"y":1280,"width":160,"height":60,"color":"3"},
+		{"id":"cde6f4f5c3713e7d","type":"text","text":"Cleanup","x":-160,"y":1360,"width":160,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"1a46c9e723bbaf04","fromNode":"a4d32d8725db7520","fromSide":"left","toNode":"1e96cbce487a202f","toSide":"left","color":"5"},
+		{"id":"c7a66306e53b21ab","fromNode":"1e96cbce487a202f","fromSide":"left","toNode":"b34c7adaab078aa3","toSide":"left","color":"5"},
+		{"id":"a0dfdcf1ea1e363d","fromNode":"46b4d671e704a806","fromSide":"left","toNode":"57dbdbefaf8a96fd","toSide":"left","color":"1"},
+		{"id":"9189a51fa9310b82","fromNode":"57dbdbefaf8a96fd","fromSide":"left","toNode":"1ad73c14301f7eab","toSide":"left","color":"1"},
+		{"id":"2ef1d119c3282604","fromNode":"1ad73c14301f7eab","fromSide":"left","toNode":"c0f4fef459e8d39b","toSide":"left","color":"1"},
+		{"id":"6321d6005b03d7a9","fromNode":"c0f4fef459e8d39b","fromSide":"left","toNode":"c983e9dadcd80fbd","toSide":"left","color":"1"},
+		{"id":"94387126e9d4e454","fromNode":"c983e9dadcd80fbd","fromSide":"left","toNode":"9e843bf55b097493","toSide":"left","color":"1"},
+		{"id":"b61afefe150a4490","fromNode":"1460c3345124a91a","fromSide":"bottom","toNode":"cbb2502643da0483","toSide":"top"},
+		{"id":"910829d41bc6e70e","fromNode":"cbb2502643da0483","fromSide":"bottom","toNode":"9b3f05f8bc0417fe","toSide":"top"},
+		{"id":"df0bb03ad7e729cc","fromNode":"9b3f05f8bc0417fe","fromSide":"bottom","toNode":"ffa2ae6d544f57d9","toSide":"top"},
+		{"id":"c233fe85a75425c0","fromNode":"ffa2ae6d544f57d9","fromSide":"bottom","toNode":"0935957b5ba124dc","toSide":"top"},
+		{"id":"67f8e8e0d88020cd","fromNode":"479850873f61617c","fromSide":"left","toNode":"cde6f4f5c3713e7d","toSide":"left","color":"3"}
+	]
+}
